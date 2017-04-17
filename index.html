@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 2 | User Profile</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+
+  <link rel="stylesheet" href="dist/css/vitle.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/HTML5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper" style="margin-left: 0px;">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        User Profile
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">Examples</a></li>
+        <li class="active">User profile</li>
+      </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+      <div class="row">
+        <div class="col-md-3">
+
+          <!-- Profile Image -->
+          <div class="box box-primary">
+            <div class="box-body box-profile">
+              <img class="profile-user-img img-responsive img-circle" src="dist/img/avatar.jpg" alt="User profile picture">
+
+              <h3 class="profile-username text-center">Vit Le</h3>
+
+              <p class="text-muted text-center">Software Engineer</p>
+
+              <ul class="list-group list-group-unbordered">
+                <li class="list-group-item">
+                  <b>Followers</b> <a class="pull-right">1,322</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Following</b> <a class="pull-right">543</a>
+                </li>
+                <li class="list-group-item">
+                  <b>Friends</b> <a class="pull-right">13,287</a>
+                </li>
+              </ul>
+
+              <a href="#" class="btn btn-primary btn-block"><b>Follow</b></a>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+
+          <!-- About Me Box -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">About Me</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <strong><i class="fa fa-book margin-r-5"></i> Big Plant</strong>
+
+              <p class="text-muted">
+                Travel The World!
+              </p>
+
+              <hr>
+
+              <strong><i class="fa fa-map-marker margin-r-5"></i> Location</strong>
+
+              <p class="text-muted">Ha Long, Quang Ninh</p>
+
+              <hr>
+
+              <strong><i class="fa fa-pencil margin-r-5"></i> Skills</strong>
+
+              <p>
+                <span class="label label-danger">HTML5</span>
+                <span class="label label-info">Javascript</span>
+                <span class="label label-danger">PHP</span>
+                <span class="label label-warning">Wordpress</span>
+                <span class="label label-info">Laravel</span>
+                <span class="label label-primary">Node.js</span>
+                <span class="label label-primary">Smartfox</span>
+              </p>
+
+              <hr>
+
+              <strong><i class="fa fa-file-text-o margin-r-5"></i> Status</strong>
+
+              <p>Need status deep but not yet</p>
+
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-9">
+          <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#activity" data-toggle="tab">Skill</a></li>
+              <li><a href="#timeline" data-toggle="tab">Timeline</a></li>
+              <li><a href="#settings" data-toggle="tab">Product</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="activity">
+                <div class="box-body">
+                  <div class="col-md-6">
+                    <div>
+                      <h4>HTML Basic</h4>
+                      <label>Html + Css + Javascript</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Database</h4>
+                      <label>Mysql</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                      <label>Mongodb</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Php</h4>
+                      <label>Wordpress</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                      <label>Laravel</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                      <label>Yii</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Javascript</h4>
+                      <label>Nodejs</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                      <label>Vuejs</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                      <label>Angularjs</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                          <span class="">Normal</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Java</h4>
+                      <label>Smartfox</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                          <span class="">Good</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Go</h4>
+                      <label>Go</label>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-yellow" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                          <span class="">Learning</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <img class="img-responsive" src="dist/img/giphy.gif">
+                  </div>
+                </div>
+              <!-- show skill-->
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="timeline">
+                <!-- The timeline -->
+                <ul class="timeline timeline-inverse">
+                  <!-- timeline time label -->
+                  <li class="time-label">
+                        <span class="bg-red">
+                          2007 - 2014
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-envelope bg-blue"></i>
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i></span>
+                      <h3 class="timeline-header">
+                        <a href="#">Chuyên Hạ Long</a>
+                      </h3>
+                      <div class="timeline-body">
+                        <div class="timeline-body">
+                          <div class="box-body">
+                                I study physical specialist. In 2008, I have bronze medal physical in Olympic Hung Vuong</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <!-- timeline time label -->
+                  <li class="time-label">
+                        <span class="bg-green">
+                          2011- 2015
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-camera bg-purple"></i>
+
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i></span>
+
+                      <h3 class="timeline-header"><a href="#">
+                        Ha Noi University Of Science And Technology</a></h3>
+
+                      <div class="timeline-body">
+                        <!--<img src="dist/img/bk.jpg" alt="..." class="margin small-img">-->
+                        I learn mechanical in university, and i learn IT in Aptech and learn my self.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="time-label">
+                        <span class="bg-green">
+                          2013
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-camera bg-purple"></i>
+
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i></span>
+
+                      <h3 class="timeline-header"><a href="#">Techmaster</a></h3>
+
+                      <div class="timeline-body">
+                        <div class="box-body">
+                            I internship in Techmaster. I learn desgin web by phalcon and android app.
+                            <!--<img src="dist/img/tv.jpg" alt="..." class="margin small-img">-->
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <!-- timeline time label -->
+                  <li class="time-label">
+                        <span class="bg-green">
+                          2013-2014
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-camera bg-purple"></i>
+
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i></span>
+
+                      <h3 class="timeline-header"><a href="#">Tinh Van Company</a></h3>
+
+                      <div class="timeline-body">
+                        <div class="box-body">
+                            I internship in Tinh Van Company. And I start projects: horoscope app,webstie, game app and api server by html5, php, wordpress, nodejs, ionic, angular,..
+                            <!--<img src="dist/img/tv.jpg" alt="..." class="margin small-img">-->
+
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <!-- timeline time label -->
+                  <li class="time-label">
+                        <span class="bg-green">
+                          2015
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-camera bg-purple"></i>
+
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i></span>
+
+                      <h3 class="timeline-header"><a href="#">Minh Chau Company</a></h3>
+
+                      <div class="timeline-body">
+                        <div class="box-body">
+                            <!--<img src="dist/img/mc.jpg" alt="..." class="margin small-img">-->
+
+                            I have job in Minh Chau Company, Code server for game card by framework Smartfox: Porker and more game card in Vietnam.
+                              I outsource website by wordpress, php, nodejs and have small project for my self
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <!-- timeline time label -->
+                  <li class="time-label">
+                        <span class="bg-green">
+                          2016
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-camera bg-purple"></i>
+
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i></span>
+
+                      <h3 class="timeline-header"><a href="#">Mobilink Company</a></h3>
+
+                      <div class="timeline-body">
+                        <div class="box-body">
+                          <!--<div class="col-md-3">-->
+                            <!--&lt;!&ndash;<img src="dist/img/gamecard.jpg" alt="..." class="margin small-img">&ndash;&gt;-->
+                          <!--</div>-->
+                          <!--<div class="col-md-6">-->
+                            <!--<label>I </label>-->
+                          <!--</div>-->
+                        </div>
+                          Have startup game card similar Minh Chau company, I code server game by smartfox framework, website, sdk payment for game.
+                      </div>
+                    </div>
+                  </li>
+                  <!-- timeline time label -->
+                  <li class="time-label">
+                        <span class="bg-green">
+                          2016-2017
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-camera bg-purple"></i>
+
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i></span>
+
+                      <h3 class="timeline-header"><a href="#">Startup Meotrics</a></h3>
+
+                      <div class="timeline-body">
+                        <div class="box-body">
+                          Meotrics is checking analytic like google analytics. We checking website: count user, visiter, campain,...
+                          Its write by nodejs + mongodb and laravel.
+                          <!--<div class="col-md-4">-->
+                            <!--&lt;!&ndash;<img src="dist/img/meotrics.png" alt="..." class="margin small-img">&ndash;&gt;-->
+                          <!--</div>-->
+                          <!--<div class="col-md-6">-->
+                            <!--<p><label>System checking website:</label></p>-->
+                            <!--<p><label>Same Google Analytics, you can checking visiter</label></p>-->
+                          <!--</div>-->
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <li>
+                    <i class="fa fa-clock-o bg-gray"></i>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="settings">
+                <div class="box-body">
+                    <div class="col-sm-12">
+                      <a href="https://meotrics.com/" target="_blank">
+                        <img src="dist/img/meotrics.png" class="img-responsive img-margin">
+                      </a>
+                    </div>
+                  <div class="col-sm-12">
+                    <a href="http://roadtripasia.com/" target="_blank">
+                      <img src="dist/img/travel.jpg" class=" img-responsive img-margin">
+                    </a>
+                  </div>
+                    <div class="col-sm-12">
+                      <a href="http://jahoninternational.com/korea/" target="_blank">
+                        <img src="dist/img/jahon.jpg" class="img-responsive img-margin">
+                      </a>
+                    </div>
+                    <div class="col-sm-12">
+                      <a href="http://capitoleschool.com/" target="_blank">
+                        <img src="dist/img/maugiao.jpg" class=" img-responsive img-margin">
+                      </a>
+                    </div>
+                    <div class="col-sm-12">
+                      <a href="http://sekangvn.com/" target="_blank">
+                        <img src="dist/img/sekang.jpg" class=" img-responsive img-margin">
+                      </a>
+                    </div>
+                    <div class="col-sm-3">
+                      <a href="http://tmo.taimienphi.vn/ios/download-lich-van-su-2014-for-ios-23633" target="_blank">
+                        <img src="dist/img/lich.jpg" class=" img-responsive img-margin">
+                      </a>
+                    </div>
+                  </div>
+                <div>
+
+                </div>
+              </div>
+              <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+          </div>
+          <!-- /.nav-tabs-custom -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 2.2.3 -->
+<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/app.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+</body>
+</html>
