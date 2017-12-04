@@ -12,6 +12,10 @@
  margin-top:10px
 }
 
+.min-height-box-info{
+    min-height: 350px;
+}
+
 .typewriter {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -54,6 +58,8 @@
     overflow: hidden;
     /*transform: translateY(-50%);*/
 }
+
+
 
 /* Animation */
 .anim-typewriter{
