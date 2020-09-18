@@ -1,57 +1,74 @@
-.small-img
-{
+.small-img {
     height: 100px;
 }
-.img-poject
-{
+
+.img-poject {
     max-width: 300px;
     max-height: 200px;
 }
-.img-margin
-{
- margin-top:10px
+
+.img-margin {
+    margin-top: 10px
 }
 
-.min-height-box-info{
+.min-height-box-info {
     min-height: 350px;
 }
 
 .typewriter {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
     animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
     /*animation-delay: 1s;*/
 
 }
 
 /* The typing effect */
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
 }
-.background-code{
+
+.background-code {
     background: black;
     color: white;
     padding: 10px;
 }
 
-.line-1{
+.line-1 {
     position: relative;
-    top: 50%;
+    /* top: 50%; */
     width: 100%;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid rgba(255, 255, 255, .75);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
@@ -59,18 +76,42 @@
     /*transform: translateY(-50%);*/
 }
 
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #00a65a;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(18, 38, 63, .15) !important;
+}
+
 
 
 /* Animation */
-.anim-typewriter{
+.anim-typewriter {
     animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+        blinkTextCursor 500ms steps(44) infinite normal;
 }
-@keyframes typewriter{
-    from{width: 0;}
-    to{width: 24em;}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
 }
-@keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
