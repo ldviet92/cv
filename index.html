@@ -169,10 +169,10 @@
                         <span><strong class="mr-2">Project introduction:</strong>{{sys.project_introdution}}</span>
                         <span><strong class="mr-2">Status:</strong>{{sys.status}}</span>
                         <span><strong class="mr-2">Link: </strong>
-                          <a v-bind:href="sys.link_web">{{sys.link_web}}</a></span>
-                        <span><strong class="mr-2">Github:</strong>
-                          <a v-bind:href="sys.link_github">{{sys.link_github}}</a>
-                        </span>
+                          <a v-bind:href="sys.link_web" target="_blank">{{sys.link_web}}</a></span>
+                        <!-- <span><strong class="mr-2">Github:</strong>
+                          <a v-bind:href="sys.link_github" target="_blank">{{sys.link_github}}</a>
+                        </span> -->
                       </div>
                     </div>
                   </div>
@@ -211,6 +211,16 @@
       data: {
         message: 'Hello Vue!',
         system_apps: [{
+            name: "AutomationMyBnb - Automessage on Airbnb",
+            image_url: "dist/img/automationmybnb.png",
+            link_web: "https://www.automationmybnb.co/",
+            link_github: "",
+            stack: "Nodejs, Vuejs",
+            position: "Developer",
+            team_member: 3,
+            status: "Running",
+            project_introdution: "Manager listings, guests, auto message on airbnb,",
+          }, {
             name: "Meostay - Platform for homestay",
             image_url: "dist/img/meostay.png",
             link_web: "https://www.meostay.com/",
@@ -218,18 +228,8 @@
             stack: "Golang, Reactjs",
             position: "Developer",
             team_member: 3,
-            status: "Running",
+            status: "Developing",
             project_introdution: "Meostay is an online short-term rental platform and hospitality service, connecting customers looking to rent a property with the property owners. ",
-          }, {
-            name: "AutomationMyBnb - Automessage on Airbnb",
-            image_url: "dist/img/automationmybnb.png",
-            link_web: "https://www.automationmybnb.co/",
-            link_github: "",
-            stack: "Golang, Nodejs, Vuejs, Reactjs",
-            position: "Developer",
-            team_member: 3,
-            status: "Running",
-            project_introdution: "Manager listings, guests, auto message on airbnb,",
           }, {
             name: "Subiz - Chatbox",
             image_url: "dist/img/subiz.png",
